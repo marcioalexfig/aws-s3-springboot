@@ -39,7 +39,7 @@ public class FileStore {
 			s3.putObject(path, fileName, inputStream, metadata);
 		}catch(AmazonServiceException e) {
 			
-			throw new IllegalStateException("Falha ao guardar arquivo no S3");
+			throw new IllegalStateException("Falha ao guardar arquivo no S3", e);
 			
 		}
 		

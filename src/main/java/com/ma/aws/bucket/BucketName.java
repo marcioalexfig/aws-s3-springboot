@@ -2,7 +2,7 @@ package com.ma.aws.bucket;
 
 public enum BucketName {
 	
-	PROFILE_IMAGE("app-image-upload-1");
+	PROFILE_IMAGE("aplicacao-image-upload-1");
 	
 	private final String bucketName; 
 	

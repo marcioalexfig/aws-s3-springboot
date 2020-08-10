@@ -7,6 +7,14 @@ public class UserProfile {
 	private UUID uuid;
 	private String userName;
 	private String userprofileImageLink;
+	
+	
+	public UserProfile(UUID uuid, String userName, String userprofileImageLink) {
+		super();
+		this.uuid = uuid;
+		this.userName = userName;
+		this.userprofileImageLink = userprofileImageLink;
+	}
 	public UUID getUuid() {
 		return uuid;
 	}
